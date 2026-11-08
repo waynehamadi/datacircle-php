@@ -1,0 +1,11 @@
+{
+  "name": "datacircle/datacircle",
+  "description": "PHP client for the Datacircle API: find the best GTM APIs.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://datacircle.dev",
+  "keywords": ["api", "gtm", "benchmark", "datacircle", "openapi"],
+  "support": {"docs": "https://api.datacircle.dev/v1/openapi.json", "source": "https://github.com/waynehamadi/datacircle-php"},
+  "require": {"php": ">=7.4", "ext-json": "*"},
+  "autoload": {"psr-4": {"Datacircle\\": "src/"}}
+}
